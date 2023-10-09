@@ -1,0 +1,143 @@
+body {
+    background-color:  #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color:  # 333;
+}
+
+ #startQuizBtn {
+    background-color:  #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+ #startQuizBtn: hover {
+    background-color:  #45a049;
+}
+
+ #waitingText {
+    font-size: 20px;
+    display: none;
+}
+
+#opponentText {
+    font-size: 20px;
+    display: none;
+}
+
+ #calculatingText {
+    font-size: 20px;
+    display: none;
+}
+
+ #tieBreakerText {
+    font-size: 20px;
+    display: none;
+}
+
+ #questionSection {
+    margin-top: 20px;
+	display: none
+}
+
+ #questionSection h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ #questionForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+ #questionForm input[type = "radio"]{
+    margin-right: 5px;
+}
+
+.buttonContainer {
+    margin-top: 10px;
+}
+
+.buttonContainer button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color:  #45a049;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonContainer button: hover {
+    background-color:  #45a049;
+}
+
+
+ #scoreSection {
+    margin-top: 20px;
+	display: none
+}
+ #scoreSection h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+ #scoreSection p {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+#TiequestionSection {
+    margin-top: 20px;
+	display: none
+}
+
+ #TiequestionSection h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ #TiequestionForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+ #TiequestionForm input[type = "radio"]{
+    margin-right: 5px;
+}
+
+.TiebuttonContainer {
+    margin-top: 10px;
+}
+
+.TiebuttonContainer button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color:  #45a049;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonContainer button: hover {
+    background-color:  #45a049;
+}
+
+
+ #playAgain {
+    background-color:  #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	display: none
+}
+
+ #playAgain: hover {
+    background-color:  #45a049;
+}
